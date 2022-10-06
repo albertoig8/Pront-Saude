@@ -1,0 +1,59 @@
+#page-auth {
+    display: flex;
+    align-items: stretch;
+    height: 100vh;
+}
+
+main {
+    flex: 1;
+
+    padding: 0 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 320px;
+    align-items: stretch;
+    text-align: center;
+}
+
+.main-content img {
+    align-self: center;
+}
+
+button {
+    margin-top: 16px;
+    width: 100%;
+}
+
+.fazer-login {
+    margin-top: 64px;
+    height: 50px;
+    border-radius: 8px;
+    font-weight: 500;
+    background: #03989E;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    border: 0;
+
+    transition: filter 0.2s;
+}
+
+.fazer-login img {
+    margin-right: 8px;
+}
+
+.fazer-login:hover {
+    filter: brightness(0.9);
+}
