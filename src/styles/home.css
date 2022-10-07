@@ -1,0 +1,65 @@
+header{
+    padding: 10px 20px 10px 20px;
+    border-bottom: 1px solid #e2e2e2;
+    background: #FFFCFC;
+}
+
+header .content {
+    max-width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-pront {
+    width: 256px;
+    height: auto;
+}
+
+.menu-logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu-logo p {
+    text-transform: uppercase;
+    color: #0C999F;
+    margin-right: 8px;
+}
+
+.menu-logo img {
+    width: 65px;
+    height: auto;
+}
+
+.menu-logo button {
+    background: none;
+    border: none;
+}
+
+main {
+    width: 100%;
+    min-height: 81.5vh;
+    background-color: #0C999F;
+}
+
+.main-content {
+    max-width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.main-content button {
+    min-width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 25px;
+    margin: 0 200px 0 200px;
+    text-transform: uppercase;
+    font-size: 26px;
+    color: #0C999F;
+}
