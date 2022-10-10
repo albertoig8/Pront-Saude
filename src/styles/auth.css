@@ -14,7 +14,7 @@ main {
     justify-content: center;
 }
 
-.main-content {
+.content {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -23,7 +23,7 @@ main {
     text-align: center;
 }
 
-.main-content img {
+.content img {
     align-self: center;
 }
 
