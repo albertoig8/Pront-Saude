@@ -12,7 +12,7 @@ export function Home() {
   return (
     <div id='page-home'>
       <header>
-        <div className='content'>
+        <div className='header-content'>
           <img id='logo-pront' src={logoImg} alt="pront Saúde" />
           <div className='menu-logo'>
             <p>suporte</p>

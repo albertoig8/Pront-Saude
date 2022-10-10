@@ -21,7 +21,7 @@ export function Login() {
   return (
     <div id="page-auth">
       <main>
-        <div className="main-content">
+        <div className="content">
           <img src={logoImg} alt="pront saúde" />
           <button onClick={goToHome} className="fazer-login">
             <img src={googleIconImg} alt="logo do google" />
